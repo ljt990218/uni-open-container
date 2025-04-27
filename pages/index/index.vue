@@ -1,7 +1,20 @@
 <template>
   <scroll-view type="list" scroll-y class="scrollable" padding="{{[8, 8, 8, 8]}}" show-scrollbar="{{false}}">
     <view class="content">
-      <image class="logo" src="/static/logo.png" @click="wow"></image>
+      <open-container
+        closed-color="white"
+        middle-color=""
+        open-color="white"
+        :closed-elevation="closedElevation"
+        :open-elevation="openElevation"
+        :closed-border-radius="closedBorderRadius"
+        :open-border-radius="openBorderRadius"
+        :transition-type="type"
+        :transition-duration="duration"
+        @click="goDetail"
+      >
+        <image class="logo" src="/static/logo.png"></image>
+      </open-container>
 
       <open-container
         class="float-button"
@@ -41,11 +54,6 @@ export default {
         url: '/pages/text/text',
       })
     },
-    wow() {
-      uni.navigateTo({
-        url: '/pages/wow/wow',
-      })
-    },
   },
 }
 </script>
@@ -69,10 +77,8 @@ export default {
 .logo {
   height: 200rpx;
   width: 200rpx;
-  margin-top: 200rpx;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50rpx;
 }
 
 .float-button {

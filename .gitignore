@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+.vscode
+.hbuilderx
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.hbuilderx
+/unpackage/*
+/node_modules
+package-lock.json
+yarn.lock

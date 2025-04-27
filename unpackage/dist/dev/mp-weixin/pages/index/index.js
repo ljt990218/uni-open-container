@@ -19,25 +19,26 @@ const _sfc_main = {
       common_vendor.index.navigateTo({
         url: "/pages/text/text"
       });
-    },
-    wow() {
-      common_vendor.index.navigateTo({
-        url: "/pages/wow/wow"
-      });
     }
   }
 };
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return {
     a: common_assets._imports_0,
-    b: common_vendor.o((...args) => $options.wow && $options.wow(...args)),
-    c: $data.closedElevation,
-    d: $data.openElevation,
-    e: $data.closedBorderRadius,
-    f: $data.openBorderRadius,
-    g: $data.type,
-    h: $data.duration,
-    i: common_vendor.o((...args) => $options.goDetail && $options.goDetail(...args))
+    b: $data.closedElevation,
+    c: $data.openElevation,
+    d: $data.closedBorderRadius,
+    e: $data.openBorderRadius,
+    f: $data.type,
+    g: $data.duration,
+    h: common_vendor.o((...args) => $options.goDetail && $options.goDetail(...args)),
+    i: $data.closedElevation,
+    j: $data.openElevation,
+    k: $data.closedBorderRadius,
+    l: $data.openBorderRadius,
+    m: $data.type,
+    n: $data.duration,
+    o: common_vendor.o((...args) => $options.goDetail && $options.goDetail(...args))
   };
 }
 const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render]]);
