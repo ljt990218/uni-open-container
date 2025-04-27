@@ -1,0 +1,14 @@
+
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollable {
+  flex: 1;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.detail {
+  margin-top: 20px;
+}

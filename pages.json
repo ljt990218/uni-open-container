@@ -1,0 +1,29 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "uni-app",
+        "navigationStyle": "custom",
+        "renderer": "skyline",
+        "componentFramework": "glass-easel"
+      }
+    },
+    {
+      "path": "pages/text/text",
+      "style": {
+        "navigationBarTitleText": "uni-app",
+        "navigationStyle": "custom",
+        "renderer": "skyline",
+        "componentFramework": "glass-easel"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff"
+  },
+  "uniIdRouter": {}
+}

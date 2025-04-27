@@ -1,0 +1,1 @@
+{"version":3,"file":"wow.js","sources":["pages/wow/wow.vue?type=page"],"sourcesContent":["import MiniProgramPage from '/Users/apple/Desktop/GitHub/uniapp-test/pages/wow/wow.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;;;;;;AACA,GAAG,WAAW,eAAe;"}
