@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "uni-app",
-  "navigationStyle": "custom",
-  "renderer": "skyline",
-  "componentFramework": "glass-easel",
-  "usingComponents": {}
-}
